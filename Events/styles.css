@@ -1,0 +1,57 @@
+.imagearea{
+	width:100%;
+	background-repeat: no-repeat;
+    background-size: cover;
+margin-top:5px;
+    height: 62vh;
+	margin-top:-45px;
+}
+.block{
+text-align: center;
+    z-index: 99;
+	position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	color:white;
+}
+#company
+{
+	font-size:20px;
+}
+#inp{
+	background-color:#d9d9d9;
+}
+#iinp{
+	background-color:#d9d9d9;
+}
+h2
+{
+	line-height:1.2rem;
+}
+#regi:hover {
+       box-shadow: 0 0.8rem 0.8rem rgba(0,0,0,0.50)!important;
+        overflow: hidden;        
+    }
+	
+button
+{
+	    border-radius: inherit;
+		background-color:#1a1a1a;
+		color:white;
+		margin-left:15px;
+}
+#hov:hover{
+	 box-shadow: 0 0.8rem 0.8rem rgba(0,0,0,0.30)!important;
+        overflow: hidden; 
+}
+.container{
+	font-family:sarfa;
+	color:white;
+}
+body{
+	    background-color: #404040;
+}
+html {
+  scroll-behavior: smooth;
+}

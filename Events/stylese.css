@@ -1,0 +1,53 @@
+#company{
+	font-family:sarfi;
+	font-size:19px;
+}
+.imagearea{
+	width:100%;
+	background-repeat: no-repeat;
+    background-size: cover;
+margin-top:px;
+    height: 60vh;
+}
+.block{
+text-align: center;
+    z-index: 90;
+	position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	color:white;
+}
+h2
+{
+	line-height:1.5rem;
+	
+}
+.:hover{
+	box-shadow: 0 0.5rem 0.5rem rgba(0,0,0,0.50)!important;
+        overflow: hidden;   
+		border-radius:10px;
+}
+row{
+	background-color:#cccccc;
+}
+h4{
+	font-family:sarfi;
+	
+}
+p{
+	font-family:monospace;
+}
+span
+{
+	font-family:initial;
+}
+body{
+	background-color:#d9d9d9;
+}
+#{
+	position:fixed;
+}
+html {
+  scroll-behavior: smooth;
+}

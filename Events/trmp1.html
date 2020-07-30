@@ -1,0 +1,117 @@
+<!Doctype html>
+<html>
+	<head>
+	     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href ="bootstrap-4/css/bootstrap.min.css">
+		
+		<script src ="jquery/jquery-3.2.1.slim.js"></script>
+		<script src="bootstrap-4/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="styless.css">
+	</head>
+	<body>
+	 <script >
+	function  buttonClick() {
+		var n=document.getElementById("inp").value;
+		//var p=document.getElementById("inputPhone3").value;
+		var e=document.getElementById("iinp").value;
+		//var m=document.getElementById("inputMassage3").value;
+		var Name="Rajat";
+		var Email="rajatranjan300@gmail.com";
+		var boolean=1;
+		if(n==Name && e==Email){
+			
+			  document.getElementById("errors1").innerHTML = "You are all ready Register"; 
+			  document.getElementById("errors1").style.color = "red";
+			
+		
+		}else{
+			
+			document.getElementById("errors1").innerHTML = "Thank you for Registeriing"; 
+			 document.getElementById("errors1").style.color = "green";
+		}
+	}
+	
+	</script>
+	<section ><img class="imagearea" src="back1.jpeg">
+	<div class="block">
+    <h1>
+	Events Managements
+	</h1>
+	<p> This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
+	</div>
+	</section>
+	        <div style="background-color: #000;" class="card " >
+						<ul class="nav" id="back">
+						<li class="nav-item">
+						<a style="color:white;" class=" nav-link " id='company' href="#">Company Name</a>
+						</li>
+						<li style=" margin-left: auto;" class="nav-item">
+						<a style="color:white;" class="nav-link left" id='company'  href="#"><i class="fa fa-home"></i>HOME</a>
+						</li>
+			</div>
+			<div class="container">
+			<div class="row  justify-content-md-center mt-5">
+			<div style="font-family:sanfa;" class="col-lg-6">
+			  <h2><i style="color:red;" class="fa fa-lg  fa-map-marker"></i> location
+			 </h2><br><span>  B.T.M ,layout(Banglore)</span><br><br>
+			 <h2><i style="color:blue;" class="fa fa-calendar"></i>  when</h2><br>
+			 <P> 31-08-2019 16:22 to 14:22</P>
+			</div>
+			<div style="font-family:sanfe" class="col-lg-6 border">
+			<h2>Agenda</h2>
+			 <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation and other interface components</p>
+			 
+			 <h2>Speaker</h2>
+			 <p id='info'>Person:<span id='info1'>Hugo Themes Hugo Future Imperfect Slim</span> </p>
+			 <p id='info'>Person :<span id='info1'>Hugo Themes . Hugo Future Imperfect Slim</span>  </p>
+			 <p id='info'>Person :<span id='info1'></span>  </p>
+			</div>
+			<div class=""></div>
+			</div>
+			
+			<div class="row mt-2  justify-content-md-center mt-5">
+			<div class="col-lg-6">
+			<div class="embed-responsive embed-responsive-4by3">
+			<iframe  class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7773.671747473228!2d77.53811724932454!3d13.046116954494039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d45d509aa21%3A0x86853b12b03d021e!2sA%20S%20C%20Jalahalli%20Supply%20Depot!5e0!3m2!1sen!2sin!4v1566975853447!5m2!1sen!2sin"  frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+			</div>
+			</div>
+			<div style="font-family:sanfa;" class="col-lg-6 mt-1" id="regi">
+			<a id=Register>
+			<h2 style="margin-top:3px;">Register for This Event</h2></a><br>
+			<p>Phone:88555</p>
+			<p>Email:rajat@888</p><br>
+			<form>
+			       <div>
+			                    <span id ="errors1" style="text-align:center;" ></span>
+								
+								</div>
+				  <div class="row">
+					<div class="col-md-6 mt-2 multi-horizontal">
+					  <input id='inp' type="text" class="form-control" placeholder="your name">
+					</div>
+					<div class="col-md-6 mt-2 multi-horizontal">
+					  <input id='inp' type="text" class="form-control" placeholder="Phone ">
+					</div>
+					<div class="col-md-12 mt-2">
+					<input id='iinp' type="text" class="form-control" placeholder="Email ">
+					</div>
+					<div class="col-md-12 mt-2">
+					<input id='inp' type="text" class="form-control" placeholder="Message ">
+					</div>
+				    <div class="input-group-btn col-md-12" style="text-align:center;">
+					<button type="button" class="btn mt-4" style="font-size:20px;" onclick="buttonClick() ">Register</button>
+				  </div>
+				  </div>
+				</form>
+			</div>
+	</div>
+	
+	</div>
+	<div style="background-color:black" class="card text-white mt-2" >
+  <div class="card-header" style="text-align:center;">Copyright@stanzatek</div>
+  
+</div>
+	</body>
+</html>

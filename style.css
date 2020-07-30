@@ -1,0 +1,17 @@
+.imagearea{
+	width:100%;
+	background-repeat: no-repeat;
+    background-size: cover;
+margin-top:5px;
+    height: 95vh;
+	margin-top:-45px;
+}
+.block{
+text-align: center;
+    z-index: 99;
+	position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	color:white;
+}
