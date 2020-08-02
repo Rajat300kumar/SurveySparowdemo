@@ -1,6 +1,6 @@
 # SurveySparowdemo
 
-DATABASE NAMe `test`
+DATABASE NAME `test`
 
 Login table name `form`
 
